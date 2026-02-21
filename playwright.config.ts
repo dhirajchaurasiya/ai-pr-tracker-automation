@@ -50,7 +50,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         browserName: 'chromium',
         launchOptions: {
-          executablePath: '/usr/bin/brave-browser'
+          executablePath: '/usr/bin/brave-browser' //path to Brave browser executable
         }
       },
     },
